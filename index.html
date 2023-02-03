@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <header class="cabecalho">
+  <header class="cabecalho FadeInDown" data-anime="200">
     <h1>Wendell</h1>
     <nav>
       <ul class="cabecalho-menu">
@@ -28,13 +28,13 @@
   </header>
 
   <main class="introducao">
-    <img src="./img/logo 1.svg" alt="o mundo é seu" width="564" height="564">
+    <img class="FadeInLeft" data-anime="400" src="./img/logo 1.svg" alt="o mundo é seu" width="564" height="564">
     <div>
-      <h1>Desenvolvedor<br>Front End</h1>
-      <p>Localizado em Belo Horizonte, Minas Gerais</p>
+      <h1 class="FadeInLeft" data-anime="600">Desenvolvedor<br>Front End</h1>
+      <p class="FadeInLeft" data-anime="800">Localizado em Belo Horizonte, Minas Gerais</p>
     </div>
   </main>
-  <section class="experiencia" id="experiencia" aria-label="Experiência">
+  <section class="experiencia FadeInDown" id="experiencia" data-anime="1000" aria-label="Experiência">
     <h2 class="subtitulo">Experiência</h2>
     <div>
       <p class="experiencia-texto">Cursando <strong>Front End</strong> através da plataforma <strong>Origamid</strong>, usando <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.</p>
@@ -81,7 +81,7 @@
   </section>
 
   <section class="formacao" id="formacao" aria-label="Formação">
-    <div class="formacao-container">
+    <div class="formacao-container FadeInDown" data-anime="1200">
       <h2 class="subtitulo">Formação</h2>
 
       <div>
@@ -116,7 +116,7 @@
     </div>
   </section>
   <footer class="footer" id="contato">
-    <div class="footer-container">
+    <div class="footer-container FadeInDown" data-anime="1400">
 
       <p class="footer-texto">Estou disponível para novos projetos e oportunidades de emprego. Entre em contato comigo para saber mais!
       </p>
@@ -129,7 +129,8 @@
 
     </div>
   </footer>
-
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
